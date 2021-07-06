@@ -1,12 +1,12 @@
 ﻿# Pokedex
 
-[Pokedox](https://localhost:5001/swagger/index.html) Is a simple WebApi service to translate pokemon descriptions in a funny way.
+Pokedox is a simple WebApi service to translate pokemon descriptions in a funny way.
 
 ### API routes available are listed below
 
 |Route |Parameter |Description |
 |-|-|-|
-|<b>[GET /api/Pokemons](localhost:5001/api/Pokemons)</b>|Number of pokemon names|Lists top number of pokemon names|
+|<b>[GET /api/Pokemons?limit={number}](localhost:5001/api/Pokemons)</b>| Number of pokemon names. Default is 20. Optional.|Lists top number of pokemon names|
 |<b>[GET api/Pokemon/{pokemon name}](localhost:5001/api/Pokemon)</b>|Pokemon name or number|Reads pokemon details|
 |<b>[GET api/Pokemon/{pokemon name}/translated](localhost:5001/api/Pokemon/1/translated)</b>|Pokemon name or number|Reads pokemon details with translated names|
 <hr>
