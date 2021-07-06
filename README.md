@@ -6,9 +6,9 @@
 
 |Route |Parameter |Description |
 |-|-|-|
-|<b>[/api/Pokemons](localhost:5001/api/Pokemons)</b>|Number of pokemon names|Lists top number of pokemon names|
-|<b>[api/Pokemon/<pokemon name>](localhost:5001/api/Pokemon)</b>|Pokemon name or number|Reads pokemon details|
-|<b>[api/Pokemon/<pokemon name>/translated](localhost:5001/api/Pokemon/1/translated)</b>|Pokemon name or number|Reads pokemon details with translated names|
+|<b>[GET /api/Pokemons](localhost:5001/api/Pokemons)</b>|Number of pokemon names|Lists top number of pokemon names|
+|<b>[GET api/Pokemon/<pokemon name>](localhost:5001/api/Pokemon)</b>|Pokemon name or number|Reads pokemon details|
+|<b>[GET api/Pokemon/<pokemon name>/translated](localhost:5001/api/Pokemon/1/translated)</b>|Pokemon name or number|Reads pokemon details with translated names|
 <hr>
 
 ## Prerequisites
