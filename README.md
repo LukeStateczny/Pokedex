@@ -29,6 +29,17 @@ dotnet run --project WebApi
 
 The tool comes with convenien way to test via web browser, please navigate to the [link](https://localhost:5001/swagger/index.html)
 
+## For Production
+  
+When publishing to release in production the ASPNETCORE_ENVIRONMENT setting in launchSettings.json file would need to be changed to 'Production'.
+Also the following tasks would be good to take before releasing to production:
+ - Disable Swagger
+ - Introduce Authentication with OAuth
+ - Review security for OWASP
+ - Monitor requests and its load
+ - Enhance logging
+ - Integrate with Azure for ie. monitoring services
+  
 # License
 
 Open Source
